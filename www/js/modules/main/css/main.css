@@ -1,16 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed&display=swap');
+
 body{
-    background-color: #FFEC6A;
+    background-color: white;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 10%;
     margin-top:20px;
     margin-bottom:20px;
-    border: solid black 6px;
-    border-radius: 10px;
 }
 
 * {
@@ -22,58 +22,74 @@ img {
   
 h1 {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: black;   
-}
-
-button:hover{
-  
-    background-color: #1FEFFF;
-    cursor: pointer;
+    color: white;
+    font-family: Saira Condensed;
+    padding-left: 10px;
+    font-size: 65px;
 }
 
 button{
     background: none;
-    border:none;
-    font-size:16px;
-    width:200px;
-    background-color:#155BB4;
-    color:white;
-    box-shadow:0px 0px 7px black;
+    border:solid black 1px;
+    font-size:65px;
+    width:60%;
+    height: 200px;
+    background-color:white;
+    color:black;
+    box-shadow:0px 0px 15px #7289DA;
     border-radius: 3px;
     display:block;
     padding-top:5px;
     padding-bottom: 5px;
     margin-top:5px;
-    
     margin-left:auto;
     margin-right:auto;
+    font-family: Saira Condensed;
 }
+button:hover{
+    background-color: #7289DA;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 0px 15px black;
+} 
 
 p{
-    padding-bottom: 5px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 2px;
-    padding-top:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Saira Condensed;
+    font-size: 24px;
   }
-  #retryButton{
+#retryButton{
     background: none;
-    border:none;
-    font-size:16px;
-    width:200px;
-    background-color:#155BB4;
-    color:white;
-    box-shadow:0px 0px 7px black;
+    border:solid black 1px;
+    font-size:45px;
+    width:40%;
+    height: 150px;
+    background-color:white;
+    color:black;
+    box-shadow:0px 0px 15px red;
     border-radius: 3px;
     display:block;
     padding-top:5px;
     padding-bottom: 5px;
     margin-top:5px;
-    
     margin-left:auto;
     margin-right:auto;
   }
- 
+#retryButton:hover{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 0px 15px red;
+}
+
+.containerTop {
+    width: 100%;
+	height: 100px;
+    margin: 0 auto;
+    background: #7289da;
+}

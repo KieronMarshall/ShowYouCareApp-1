@@ -1,11 +1,14 @@
 <ion-view >
   <head>
       <meta charset="UTF-8">
-      <!-- <link rel="stylesheet" href="../main/css/main.css"> -->
+      <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
-    <h1>Show You Care Park Elswehre</h1>
-    <img src="css/logo.png"></img>
+    <div class="containerTop">
+      <h1>Show You Care Park Elsewhere</h1>
+	</div>
+    <!--  <img src="css/logo.png">  -->
+    <img src="css/pin.gif">
 
     <div id="main">
 
@@ -19,13 +22,18 @@
         
 
   <div id="not-connected" ng-show="!vm.pushConnected"><p>Connecting...</p>
-    <button ion-button round ng-click="vm.initialise();" id="retryButton">Retry</button>
+    <button ion-button round ng-click="vm.initialise();" id="retryButton">Retry Connection</button>
   </div>
 
   <div id="connected" ng-show="vm.pushConnected===true">
     <p>Connected.</p>
   </div>
-  <p>To report an incident please scan an unique Show You care Park Elswhere QR code!</p>
+  <p>To report an incident please scan a unique Show You care Park Elswhere QR code!</p>
+  <br>
+  <P>If you do not have a QR Code available you can print one on the Show You Care Park Elsewhere Website</P>
+  <br>
+  <br>
+  <br>
   <div style="padding:16px;" ng-show="vm.deviceId!==false">
     <div ng-show="vm.activity===vm.ACTIVITY.SCAN">
         <button ion-button round ng-click="vm.waitThenSettings()">Scan QR Code</button>

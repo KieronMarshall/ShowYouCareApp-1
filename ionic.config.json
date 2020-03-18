@@ -1,0 +1,7 @@
+{
+  "name": "showyoucare",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic1"
+}
